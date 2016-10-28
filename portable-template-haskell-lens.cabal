@@ -13,10 +13,10 @@ name:                portable-template-haskell-lens
 version:             0.1.0.0
 
 -- A short (one-line) description of the package.
-synopsis:            Template Haskell 2.11 changes its constructors. In order to write portable code, this package provides lenses / prisms to work across version s of template haskell
+synopsis:            Lenses for the AST of Template Haskell 2.11 and Template Haskell < 2.11
 
 -- A longer description of the package.
--- description:         
+description:         Template Haskell 2.11 changes its constructors. In order to write portable code, this package provides lenses / prisms to work across versions of template haskell
 
 -- The license under which the package is released.
 license:             MIT
@@ -45,6 +45,9 @@ build-type:          Simple
 -- Constraint on the version of Cabal needed to build this package.
 cabal-version:       >=1.10
 
+source-repository head
+  type:     git
+  location: https://github.com/literate-unitb/portable-template-haskell-lens
 
 library
   -- Modules exported by the library.
