@@ -200,3 +200,11 @@ script:
       ;;
   esac
   set +ex
+deploy:
+  provider: hackage
+  username: simon.hudon@gmail.com
+  password:
+    secure: KRlVN4C6NQSV/FdbLtgkNSHy4OWjFisv3JuI5uDqdU8EfJKAwptXPiqVZQ2T3lZhcsBGyFV3lft3ElvcKrDkrI8ELl4EsH05vjlc3xVCm/vYauxp0FYeKIUshN0fVOTFCDmcNgLbGLVFgN1TusfsODqcE4n1AaD1fNWuKZIkywi6NV5ZHjuMnD9A0KLWVBSIHYBrkZ9OYrerh+nIDf7Tf/kjY6klJwNZ8uCShg3pKmwZ06MZmAQJav6sdthX73v6bulF8NDq2D5aORdwdjNsnMJE+Gekbvbh3QN22VZ5eeVvKcTcZE3Yo+IkzUxx/l+Eu0VMkwMNiKwZKUUKvAXaKWjH1l9X3VLIEd+K1WrMHzg7yYXyAR/FiwqLdYGAe4rZ3xDcTELDkb0Dk5SXnbk1Pda22hfMPv/zcdhNLiRDp31tuURnAx46z9BvAaKd9AGIrJtR7ma7rWew5FctZS8ROt8kF5jlE992qkBMMsCAEBoqWY867GyMvfZj2qb30hmwpG8SDHi0cmbm0/ZEKVrn6VCVYoSbdbaMfLL5YAe+L2ITzglI+cETAAmuE1R8AdHJ5nEsGrc42SYrdNkHNl2//mjR/Bs27WLWo4hzxjgeLyfebpHQvhuXTiSsYJPHoy9vK9JRP3yJvacEbj34m8/5w10Sjaku30+G1nTCERYNEpU=
+  on:
+    repo: literate-unitb/portable-template-haskell-lens
+    tags: true
