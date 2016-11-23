@@ -47,7 +47,7 @@ cabal-version:       >=1.10
 
 source-repository head
   type:     git
-  location: https://github.com/literate-unitb/portable-template-haskell-lens
+  location: https://github.com/unitb/portable-template-haskell-lens
 
 library
   -- Modules exported by the library.
